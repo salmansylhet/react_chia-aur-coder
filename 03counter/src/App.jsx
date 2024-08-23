@@ -1,3 +1,5 @@
+
+
 import { useState } from "react";
 
 
@@ -61,7 +63,7 @@ function App() {
 
   return (
     <>
-    <h2>Counter Value: {counter}</h2>
+    <h2 className="heading">Counter Value: {counter}</h2>
     <button onClick={addValue}>Add value</button> <br/>
     <button onClick={removeValue}>Remove value</button>
     <p>Counter value is: {counter}</p>

@@ -1,6 +1,5 @@
 
 
-import React from 'react'
 
 function Card({btnText, about}) {
     console.log('Props', btnText);
@@ -13,7 +12,7 @@ function Card({btnText, about}) {
         />
         <div className="p-4">
           <h1 className="inline-flex items-center text-lg font-semibold">
-            About {about}  {" "}
+            About {about} {""}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
